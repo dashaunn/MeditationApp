@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgb(21, 100, 148) 0%, rgb(47, 47, 126) 100%);
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    gap: 2rem;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 100svh;
+    gap: 2rem;
+}
+
+.logo {
+    padding: 1.5rem 1rem;
+    max-width: 120px;
+}
+
+.section-title {
+    margin-left: 1rem;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.cards-list > a {
+    color: white;
+    text-decoration: none;
+}
+
+.cards-list {
+    padding: 2rem 0 0 1rem;
+    max-width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.card {
+    font-size: 12px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card:hover {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transform: scale(1.02);
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 1rem;
+}
+
+.card--title {
+    margin: 0 0 .5rem 0;
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 24px;
+}
+
+.card--subtitle {
+    margin: 0;
+    font-size: .8rem;
+    font-weight: 200;
+    line-height: 20px;
+}
