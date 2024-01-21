@@ -5,7 +5,7 @@ export default function Card(props) {
 
     return (
                 <a href="" className="card">
-                    <img src={`/src/images/${props.item.backgroundImage}`} alt="" className="card--image" />
+                    <img src={`/images/${props.item.backgroundImage}`} alt="" className="card--image" />
                     <svg src="" className="card--lockIcon"></svg>
 
                     <div className="card--info">
