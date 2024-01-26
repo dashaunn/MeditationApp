@@ -8,7 +8,7 @@ export default function Card(props) {
     return (
                 <a href="" className="card">
                     {duration && <div className="duration-badge">{duration} min</div>}
-                    {!duration && <div className="lock-badge"><img src="/src/images/lock-icon.png" className="lock-icon" /></div>}
+                    {!duration && <div className="lock-badge"><img src="/images/lock-icon.png" className="lock-icon" /></div>}
                     <img src={`/images/${props.item.backgroundImage}`} alt="" className="card--image" />
 
                     <div className="card--info">
