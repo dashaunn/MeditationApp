@@ -142,4 +142,70 @@ export default [
         duration: 36,
         premium: 0,
     },
+    {
+        id: 14,
+        description: "",
+        backgroundImage: "coastline-sunset.jpeg",
+        info: {
+            title:"We Were Made for Times Like These",
+            subtitle:"Series • Kaira Jewel Lingo" 
+        },
+        duration: 24,
+        premium: 1,
+    },
+    {
+        id: 15,
+        description: "",
+        backgroundImage: "mountain-stream.jpeg",
+        info: {
+            title:"Calming Anxiety",
+            subtitle:"Meditation • Tamara Levitt" 
+        },
+        duration: 28,
+        premium: 0,
+    },
+    {
+        id: 16,
+        description: "",
+        backgroundImage: "lotus.jpeg",
+        info: {
+            title:"7 Days of Happiness",
+            subtitle:"Course • Tamara Levitt" 
+        },
+        duration: 41,
+        premium: 1,
+    },
+    {
+        id: 17,
+        description: "",
+        backgroundImage: "sequoias.jpeg",
+        info: {
+            title:"Relaxed Open-Hearted Presence",
+            subtitle:"Meditation • Tara Brach" 
+        },
+        duration: 37,
+        premium: 0,
+    },
+    {
+        id: 18,
+        description: "",
+        backgroundImage: "waves.jpeg",
+        info: {
+            title:"7 Days of Managing Stress",
+            subtitle:"Course • Tamara Levitt" 
+        },
+        duration: 29,
+        premium: 1,
+    },
+    {
+        id: 19,
+        description: "",
+        backgroundImage: "tree-trunk.jpeg",
+        info: {
+            title:"Saying Yes to Life",
+            subtitle:"Meditation • Tara Brach" 
+        },
+        duration: 24,
+        premium: 0,
+    }
 ]
